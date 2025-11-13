@@ -82,7 +82,7 @@ class _PanicHomeState extends State<PanicHome> {
 
   @override Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(title: Text('Driver Panic')), body: Padding(padding: EdgeInsets.all(16), child: Column(children: [
-      Text('User: ${'{'}widget.user.uid{'}'}'),
+      Text('User: ${widget.user.uid}'),
       SizedBox(height:20),
       ElevatedButton(onPressed: _sending ? null : _sendPanic, child: Text(_sending ? 'Sending...' : 'PANIC'), style: ElevatedButton.styleFrom(backgroundColor: Colors.red, foregroundColor: Colors.white, padding: EdgeInsets.symmetric(vertical:20, horizontal:40))),
       SizedBox(height:12),
