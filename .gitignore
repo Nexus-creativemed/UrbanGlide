@@ -124,3 +124,7 @@ test-results/
 # Documentation build
 docs/_build/
 site/
+
+# Local installer binaries
+jetbrains-toolbox-*.exe
+*.msi
