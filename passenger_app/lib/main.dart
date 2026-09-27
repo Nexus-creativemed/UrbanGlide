@@ -5,7 +5,10 @@ void main() {
 }
 
 class _MyApp extends StatelessWidget {
-  const _MyApp({super.key});
+  _MyApp({super.key}) {
+    // TODO: implement _MyApp
+    throw UnimplementedError();
+  }
 
   // This widget is the root of your application.
   @override

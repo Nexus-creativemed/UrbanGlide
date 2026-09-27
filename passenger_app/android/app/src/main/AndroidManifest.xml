@@ -55,10 +55,9 @@
         </activity>
         
         <!-- Google Maps API Key -->
-        <!-- TODO: Replace YOUR_GOOGLE_MAPS_API_KEY_HERE with actual key -->
     <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyBV8ehs2GbQAVUXT8gA8V6vLRazZJbdSFk"/>        <!-- Firebase Cloud Messaging -->
+        android:value="AIzaSyA5b1rJl8Pzd7gOxmqLCpeJycWJ-8Ky02U"/>        <!-- Firebase Cloud Messaging -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@mipmap/ic_launcher" />
